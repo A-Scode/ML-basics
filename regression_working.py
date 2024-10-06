@@ -41,7 +41,7 @@ for _ in range(1000):
         best = acc
         print("Accuracy :" , acc)
         # storing the model
-        with open("studentModel.pickle" , "wb") as model:
+        with open("./models/studentModelLR.pkl" , "wb") as model:
             pickle.dump(linear , model)
         
 
